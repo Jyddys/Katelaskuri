@@ -1,0 +1,39 @@
+* {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+}
+
+.container {
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.ktlaskelma {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+input {
+  font-size: rem;
+}
+input[type=submit] {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+input[type=submit]:hover {
+background-color: rgb(175, 171, 156);
+}
+
+.vastaukset {
+  display: inline-block;
+  border: 1px solid black;
+  width: 500px;
+}

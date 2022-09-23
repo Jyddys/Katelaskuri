@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Katetuottolaskelma</h1>
+    <div class="ktlaskelma">
+      <label for="mTuotto">Myyntituotto</label>
+      <input type="text" id="mTuotto" class="mTuotto" placeholder="Myyntituotto" >
+      <label for="mTuotto">Muuttuvat kustannukset</label>
+      <input type="text" id="mKustannukset" class="mKustannukset" placeholder="Muuttuvat kustannukset" >
+      <label for="mTuotto">Kiinteät kustannukset</label>
+      <input type="text" id="kKustannukset" class="kKustannukset"placeholder="Kiinteät kustannukset">
+      <input type="submit" value="Suorita" class="suoritaLasku" onclick="getVal()">
+    </div>
+    <div class="vastaukset">
+      <p class="myyntituotto">Myyntituotto: </p>
+      <p class="myyntiKustannukset">Muuttuvat kustannukset:</p>
+      <p class="kateTuotto">Katetuotto:</p>
+      <p class="kiinteKust">Kiinteät kustannukset:</p>
+      <p class="tulos">Tulos:</p>
+      <p class="KTP">Katetuottoprosentti:</p>
+    </div>
+    
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
