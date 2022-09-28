@@ -2,4 +2,4 @@
 
 Katelaskuri joka laskee katteen, katetuottoprosentin sekä tuloksen. 
 
-Toteutin sivun kouluni matikantunnin innoittamana.
+Toteutin sivun kouluni matematiikantunnin innoittamana.
